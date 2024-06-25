@@ -1,5 +1,5 @@
 ---
-title: Welcome to Junning's homepage
+title: Welcome to Junning's blog
 ---
 
-This is Junning's homepage, welcome! 
+This is Junning's blog, welcome! 
