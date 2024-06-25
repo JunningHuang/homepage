@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Junning's homepage
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is Junning's homepage, welcome! 
