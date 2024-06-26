@@ -38,12 +38,15 @@ $$
 \dot{q}=\Delta q\ \text{dt}.
 \end{aligned}
 $$
-Now we have an iterative algorithm, but how to calculate it, because $f(q)\in \mathbb{R}^6$ involves translation and rotation. Lie group would help! Consider $\mathcal{X}_d$ and $\mathcal{X}_0$, which are the $SE3$ representation of $x_d$ and $x_0$, respectively, we could do 
+Now we have an iterative algorithm, but how to calculate it, because $f(q)\in \mathbb{R}^6$ involves translation and rotation. Lie group would help! Consider $\mathcal{X}_d$ and $\mathcal{X}_0$, which are the $SE3$ representation of $x_d$ and $x_0$, respectively. We could then do 
+
 $$
 \begin{aligned}
 \Delta q=J_{q_0}^{-1}\text{Log}(\mathcal{X}_d-\mathcal{X}_0)
 \end{aligned}
-$$ where $\text{Log}(\mathcal{X}_d-\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $-$ means the right subtraction because the Jacobian is define in the local frame. 
+$$
+
+where $\text{Log}(\mathcal{X}_d-\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $-$ means the right subtraction because the Jacobian is define in the local frame. 
 
 The idea behind is inverse kinematics use the difference of $\mathcal{X}_d$ and $\mathcal{X}_0$ on the $SE(3)$ manifold as a search direction, then map it back to the generalized coordinates. Because
 $$
@@ -54,8 +57,8 @@ $$
 ideally we have to use the $\text{Exp}$ operator in configuration space to do integration. But since the tangent space $\dot{\mathcal{Q}}$ of $\dot{q}$ and the generalized coordinate $\mathcal{Q}$ of $q$ both belongs to $\mathbb{R}^n$, we only need to do simple Euler integration.
 
 Of course, there are a lot of details when implement the algorithm, e.g. 
-- The inverse, usually pseudo inverse is used;
-- You could also used the left subtraction in here, but then the Jacobian must in global coordinate defined on Lie algebra;
+- How to calculate the inverse of Jacobian, usually pseudo inverse is used;
+- You could also used the left subtraction, but then the Jacobian must in global coordinate defined on Lie algebra;
 
 For implementation, one can check the code here, implemented with pinocchio [pinocchio inverse kinematics](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/md_doc_b-examples_i-inverse-kinematics.html). 
 
