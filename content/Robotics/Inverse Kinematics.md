@@ -41,9 +41,9 @@ $$
 Now we have an iterative algorithm, but how to calculate it, because $f(q)\in \mathbb{R}^6$ involves translation and rotation. Lie group would help! Consider $\mathcal{X}_d$ and $\mathcal{X}_0$, which are the $SE3$ representation of $x_d$ and $x_0$, respectively, we could do 
 $$
 \begin{aligned}
-\Delta q=J_{q_0}^{-1}\text{Log}(\mathcal{X}_d-\mathcal{X}_0),
+\Delta q=J_{q_0}^{-1}\text{Log}(\mathcal{X}_d-\mathcal{X}_0)
 \end{aligned}
-$$ $\text{Log}(\mathcal{X}_d-\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $-$ means the right subtraction because the Jacobian is define in the local frame. 
+$$ where $\text{Log}(\mathcal{X}_d-\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $-$ means the right subtraction because the Jacobian is define in the local frame. 
 
 The idea behind is inverse kinematics use the difference of $\mathcal{X}_d$ and $\mathcal{X}_0$ on the $SE(3)$ manifold as a search direction, then map it back to the generalized coordinates. Because
 $$
