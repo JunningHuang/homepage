@@ -42,11 +42,11 @@ Now we have an iterative algorithm, but how to calculate it, because $f(q)\in \m
 
 $$
 \begin{aligned}
-\Delta q=J_{q_0}^{-1}\text{Log}(\mathcal{X}_d-\mathcal{X}_0)
+\Delta q=J_{q_0}^{-1}\text{Log}(\mathcal{X}_d\ominus\mathcal{X}_0)
 \end{aligned}
 $$
 
-where $\text{Log}(\mathcal{X}_d-\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $-$ means the right subtraction because the Jacobian is define in the local frame. 
+where $\text{Log}(\mathcal{X}_d\ominus\mathcal{X}_0)$ is a 6D vector in cartesian space. Note that here $\ominus$ means the right minus operator because the Jacobian is define in the local frame. 
 
 The idea behind is inverse kinematics use the difference of $\mathcal{X}_d$ and $\mathcal{X}_0$ on the $SE(3)$ manifold as a search direction, then map it back to the generalized coordinates. Because
 $$
