@@ -1,4 +1,4 @@
-Hi there, it's Junning. I'm doing a PhD in [IAS](https://www.ias.informatik.tu-darmstadt.de/) , TU Darmstadt. My current research interest is to go beyond the classic conservative model-based control theoretic approaches, build up state estimators and controllers that 
+Hi there, it's Junning. I'm doing my PhD in [IAS](https://www.ias.informatik.tu-darmstadt.de/) , TU Darmstadt. My current research interest is to go beyond the classic conservative model-based control theoretic approaches, build up state estimators and controllers that 
 
 - Satisfies certain performance or safety criteria, go beyond asymptotical stability;
 - Deal with nonlinear, hybrid, non-smooth dynamics;
