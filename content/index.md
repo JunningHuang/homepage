@@ -17,7 +17,7 @@ This is Junning's digital garden, welcome! I'm a PhD student who's working in ro
 with modern geometry, optimization and machine learning tools. The ultimate goal here is to automate daily processes and to help us focusing on necessary and better decision making. 
 
 Here are some paths you might follow to get to know more about me, my research and interests:
-- [[State Estimation/index|🌱 State Estimation]] State Estimation related content.
+- [[State Estimation/index|🌱 State Estimation]]: State Estimation related content.
 - [[Robotics/index|🤖 Robotics]]: Robotics related content.
 - [[Thoughts/index|🧠 Thoughts]]: Thoughts that I randomly ran into or pondered.
 - [[Readings/index|📖 Readings]]: Notes for the non-technological readings.
