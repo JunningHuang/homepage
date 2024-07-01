@@ -1,5 +1,5 @@
 ---
-title: Welcome to Junning's Digital Garden
+title: Junning's Digital Garden
 ---
 
 <p align="center">
