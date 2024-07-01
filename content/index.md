@@ -22,4 +22,4 @@ Here are some paths you might follow to get to know more about me, my research a
 - [[Thoughts/index|🧠 Thoughts]]: Thoughts that I randomly ran into or pondered.
 - [[Readings/index|📖 Readings]]: Notes for the non-technological readings.
 
-If you have any thoughts or want to collaborate, feel free to drop an [email](junning.huang@ias.tu-darmstadt.de). 
+If you have any thoughts or want to collaborate, feel free to drop me an email (junning.huang@ias.tu-darmstadt.de). 
