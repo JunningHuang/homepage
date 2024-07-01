@@ -18,8 +18,8 @@ with modern geometry, optimization and machine learning tools. The ultimate goal
 
 Here are some paths you might follow to get to know more about me, my research and interests:
 - [[State Estimation/index|🌱 State Estimation]] State Estimation related content.
-- [[content/Robotics/index|🤖 Robotics]]: Robotics related content.
-- [[content/Thoughts/index|🧠 Thoughts]]: Thoughts that I randomly ran into or pondered.
-- [[content/Readings/index|📖 Readings]]: Notes for the non-technological readings.
+- [[Robotics/index|🤖 Robotics]]: Robotics related content.
+- [[Thoughts/index|🧠 Thoughts]]: Thoughts that I randomly ran into or pondered.
+- [[Readings/index|📖 Readings]]: Notes for the non-technological readings.
 
 If you have any thoughts or want to collaborate, feel free to drop an [email](junning.huang@ias.tu-darmstadt.de). 
