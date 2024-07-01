@@ -3,7 +3,7 @@ title: Junning's Digital Garden
 ---
 
 <p align="center">
-  <img src="./Images/ninja_cool.png" height="500"/>
+  <img src="./Images/ninja_cool.png" height="400"/>
 </p>
 
 >
