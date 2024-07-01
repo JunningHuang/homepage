@@ -14,7 +14,7 @@ This is Junning's digital garden, welcome! I'm a PhD student who's working in ro
 - Satisfies certain performance or safety criteria, go beyond asymptotical stability;
 - Deal with nonlinear, hybrid, non-smooth dynamics;
 
-with modern geometry, optimization and machine learning tools. The ultimate goal here is to automate daily processes and to help us focusing on necessary and better decision making. 
+with modern geometry, optimization and machine learning tools. The ultimate goal here is to automate daily processes in a robust and safely manner and performing intelligent decision making to assist humans.
 
 Here are some paths you might follow to get to know more about me, my research and interests:
 - [[State Estimation/index|🌱 State Estimation]]: State Estimation related content.
